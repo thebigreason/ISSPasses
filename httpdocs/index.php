@@ -90,7 +90,11 @@
 				
 				<ul>
 					<li>
-						<p>No visible passes today.</p>
+						<p>
+							<img src="img/no-pass-day.gif" width="16" height="16" alt="no-pass-day" /> 
+							<img src="img/no-pass-night.gif" width="16" height="16" alt="no-pass-night" /> 
+							No visible passes today.
+						</p>
 					</li>
 				</ul>
 				

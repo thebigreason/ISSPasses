@@ -172,6 +172,14 @@ time .year {
 	text-align: center;
 }
 
+.passes p img {
+	vertical-align: text-bottom;
+}
+
+.passes p img[src*='night'] {
+	display: none;
+}
+
 #night-mode {
 	background: #000;
 	border-radius: 8px;
@@ -199,6 +207,14 @@ time .year {
 
 .night h1, .night #night-mode {
 	color: rgba(255,255,255,0.15);
+}
+
+.night.passes p img[src*='night'] {
+	display: inline;
+}
+
+.night.passes p img[src*='day'] {
+	display: none;
 }
 
 @media only screen and (min-width: 35em) {
