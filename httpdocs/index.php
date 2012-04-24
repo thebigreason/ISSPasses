@@ -34,6 +34,7 @@
 				    
 				    <li>
 				    	<hgroup>
+							<p><span title="(Lat: <?=$iss->location->lat?>, Lng:<?=$iss->location->lng?>)">Woodland, CA</span></p>
 							<h2 class="passtime">
 								<time datetime="<?=date('Y-m-d',$pass->start->time)?>">
 									<span class="month"><?=date('F',$pass->start->time)?></span>
@@ -90,6 +91,7 @@
 				
 				<ul>
 					<li>
+						<p>Lat: <?=$iss->location->lat?>, Lng:<?=$iss->location->lng?></p>
 						<p>
 							<img src="img/no-pass-day.gif" width="16" height="16" alt="no-pass-day" /> 
 							<img src="img/no-pass-night.gif" width="16" height="16" alt="no-pass-night" /> 

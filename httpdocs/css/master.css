@@ -104,6 +104,7 @@ h1 {
 	border-left-color: #c1c5ae;
 	border-right-color: #c1c5ae;
 	color: #393937;
+	margin-bottom: 1.5em;
 }
 
 colgroup.peak {
@@ -117,6 +118,11 @@ colgroup.peak {
 
 .passes hgroup {
 	overflow: hidden;
+}
+
+.passes hgroup p {
+	font-size: 12px;
+	margin: 0.5em 0 0 0;
 }
 
 .passes thead th {
