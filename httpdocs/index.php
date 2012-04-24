@@ -12,6 +12,8 @@
 		
 		<meta name="description" content="A utility to show visible ISS passes in the next 24 hours from Woodland, CA." />
 		<meta name="viewport" content="width=device-width" />
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="black" />
 
 		<link rel="stylesheet" href="/css/master.css" />
 		<script src="/js/modernizr-2.5.3.min.js"></script>
