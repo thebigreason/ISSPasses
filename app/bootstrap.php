@@ -1,6 +1,5 @@
 <?php
 
-
 // Set your latitude and longitude. Woodland, CA is the default.
 $lat = '38.669835';
 $lng = '-121.769828';
